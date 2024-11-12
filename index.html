@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjana Madhushan - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+    <script>
+        // Redirect to home page on refresh
+        window.onbeforeunload = function() {
+            window.location.href = 'index.html'; // Redirect to home page
+        };
+    </script>
+
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+
+
+    
+  <!-- Navigation Bar -->
+<div id="navbar" style="width: 100%;height: 130px;">
+    <nav class="p-4 bg-gray-800 shadow-lg fixed w-full bg-gray-900">
+        <div class="container mx-auto flex justify-between items-center">
+        <!-- Set the link to #home -->
+        <a href="#navbar" class="text-2xl font-bold">Anjana Madhushan</a>
+            <ul class="flex space-x-6">
+            <li><a href="index.html#about" class="hover:text-blue-400">About</a></li>
+            <li><a href="#projects" class="hover:text-blue-400">Projects</a></li>
+            <li><a href="index.html#skills" class="hover:text-blue-400">Skills</a></li>
+            <li><a href="index.html#contact" class="hover:text-blue-400">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+<section id="home">
+    <img src="images/anjana.jpg" alt="Project Image" class="project-image">
+    " alt="Hero Image" class="w-full h-full object-cover">
+    <div class="text-center">
+        <h1 class="text-5xl font-extrabold mb-4">Hi, I'm Anjana Madhushan</h1>
+        <p class="text-xl mb-6">Driven by a passion for technology and innovation, I am a developer-in-training pursuing a BSc Hons in Information Technology. I specialize in website development, crafting dynamic digital experiences that bring ideas to life and engage users at every click</p>
+        <a href="#projects" class="px-6 py-3 bg-blue-500 rounded-full text-lg font-semibold hover:bg-blue-600 transition">View My Work</a>
+    </div>
+</section>
+
+                                        
+    
+
+    <!-- About Section -->
+<section id="about" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">About Me</h2>
+            <p class="text-lg max-w-2xl mx-auto">
+                Hello! I’m a skilled developer with experience in building modern web applications using HTML, CSS, JavaScript, and more. I am committed to continuous learning and enjoy working on innovative projects.
+            </p>
+        </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Example Project Card -->
+    <div id="project1" class="bg-gray-700 rounded-lg overflow-hidden shadow-lg">
+        <img src="images/project1.png" alt="Project Image" class="project-image" >
+        <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">Project Title</h3>
+            <p class="text-gray-300">Brief description of the project, highlighting the technology used and the purpose.</p>
+            <a href="#" class="text-blue-400 hover:underline mt-4 block">View Project</a>
+        </div>
+    </div>
+    <!-- Example Project Card 
+    <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg">
+        <img src="https://via.placeholder.com/400x300" alt="Project Image" class="project-image" >
+        <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">Project Title</h3>
+            <p class="text-gray-300">Brief description of the project, highlighting the technology used and the purpose.</p>
+            <a href="#" class="text-blue-400 hover:underline mt-4 block">View Project</a>
+        </div>
+    </div>
+     Example Project Card 
+    <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg">
+        <img src="https://via.placeholder.com/400x300" alt="Project Image" class="project-image" >
+        <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">Project Title</h3>
+            <p class="text-gray-300">Brief description of the project, highlighting the technology used and the purpose.</p>
+            <a href="#" class="text-blue-400 hover:underline mt-4 block">View Project</a>
+        </div>
+    </div>
+    -->
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">My Skills</h2>
+            <div class="flex flex-wrap justify-center">
+                <span class="skill-badge" style="--i:1">HTML</span>
+                <span class="skill-badge" style="--i:2" >CSS</span>
+                <span class="skill-badge" style="--i:3">JavaScript</span>
+                <span class="skill-badge" style="--i:4">Tailwind CSS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-6">Contact Me</h2>
+            <p class="mb-4">Feel free to reach out through any of the platforms below:</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com/AnjanaMadhushanaj" target="_blank" title="GitHub" class="contact-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/anjana-bandara-ilankoon-b6685a2bb" target="_blank" title="LinkedIn" class="contact-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/anjana.madushan.9028" target="_blank" title="Facebook" class="contact-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/+94758439195" target="_blank" title="WhatsApp" class="contact-icon"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:anjanamadhushanilankoon@gmail.com" title="Email" class="contact-icon"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="py-6 bg-gray-900 text-center text-gray-500">
+        &copy; 2024 Anjana Madhushan. All rights reserved.
+    </footer>
+</body>
+</html>

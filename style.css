@@ -1,0 +1,130 @@
+/* Custom Styling */
+html {
+    scroll-behavior: smooth;
+}
+.navbar a {
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #4FD1C5; /* Tailwind cyan color */
+}
+/* Navigation bar */
+nav {
+    position: fixed;
+    z-index: 10;  /* Keeps the navbar on top of other content */
+    width: 100%;
+    top: 0;
+}
+
+/* Hero section */
+#home {
+    z-index: 1;  /* Ensure the hero section stays below the navbar */
+}
+
+.hero-section {
+    padding: 60px;
+    padding-top: 150px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #1F2937;
+}
+.text-center{
+    text-align: center;
+}
+
+#home {
+    width: 900px;
+    max-width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    padding-top: 100px;  /* Increase this to give more space for the navbar */
+    background-color: rgba(255, 255, 255, 0.1);  /* Slightly tinted background */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.7);  /* Wider and more pronounced shadow */
+    transition: transform 0.3s ease;
+    min-height: 70vh;  /* Ensures the hero section fills the entire viewport */
+    margin-top: 0px; /* Adds space for the fixed navbar */
+}
+
+#home img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-top: -30px;
+
+}
+#project1 {
+    margin-left: 20px;
+}
+.project-card {
+    width: 300px;
+    height: 300px;
+    padding-left: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+
+}
+
+
+.project-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.project-image{
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+.skill-badge {
+    background-color: #1f2937; 
+    padding: 10px 20px;
+    border-radius: 9999px;
+    color: #ffffff;
+    margin: 8px;
+    display: inline-block;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.skill-badge:hover {
+    background-color: #4a90e2; /* Change to your desired hover color */
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+
+
+/* Default icon styling */
+.contact-icon {
+    color: #ffffff; /* Default icon color */
+    font-size: 1.5rem; /* Icon size */
+    transition: color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+/* Hover effect */
+.contact-icon:hover {
+    color: #4a90e2; /* Change to blue on hover */
+    transform: scale(1.2); /* Slightly increase size on hover */
+}
+
+
+
+.footer a {
+    color: #4FD1C5;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #2C7A7B;
+}
